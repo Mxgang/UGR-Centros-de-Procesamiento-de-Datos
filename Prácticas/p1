@@ -1,0 +1,12 @@
+ip de la maquina virtual 192.168.56.97
+lxc launch ubuntu: c1 ---> crear contenedor
+lxc copy c0 c2 ---> hacer una copia de c0 en c2
+lxc exec c0 bash --> entrar a c0, exit ---> salir
+	lsb_release -a ---> para ver la version y otros datos
+lxc launch ubuntu:16.04 c5 ---> crea una imagen de 16.04
+lxc launch images:centos/7 c6 --->crea una imagen de centos
+
+------------------------------------p2
+
+ssh -p 3311 cpd11@abds.ugr.es
+pass 	PDjTbXF5DJ91osFhVvb2/A==
